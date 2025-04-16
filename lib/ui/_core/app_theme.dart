@@ -11,9 +11,8 @@ abstract class AppTheme {
             return Colors.grey;
           } else if (states.contains(WidgetState.pressed)) {
             return const Color.fromARGB(171, 255, 164, 89);
-          } else {
-            return AppColors.mainColor;
           }
+          return AppColors.mainColor;
         }),
       ),
     ),
